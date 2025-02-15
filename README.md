@@ -6,7 +6,7 @@ Test-time scaling enables a model to generate more tokens during the inference s
 # MM-Verify  
 + Search Algorithm  
 `/search/eval.sh  `
-> We referred to the awesome work ![ResT-MCTS](https://github.com/THUDM/ReST-MCTS) for the implementation of the search algorithm, thanks!
+> We referred to the awesome work [ResT-MCTS](https://github.com/THUDM/ReST-MCTS) for the implementation of the search algorithm, thanks!
   
 + Each question is sampled $n$ times  
 `/data_syn/sample_qwen2vl.py  `
