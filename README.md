@@ -10,7 +10,7 @@ Test-time scaling enables a model to generate more tokens during the inference s
 - **[2025.02.23]** 💥 We released MM-Verifier model. [[MM-Verifier](https://huggingface.co/lhpku20010120/MM-Verify/tree/main)]
 - **[2025.02.23]** 💥 We released training dataset of MM-Verifier and MM-Reasoner. [[Huggingface Dataset](https://huggingface.co/datasets/lhpku20010120/MM-Verify-Data/tree/main)]
 
-# MM-Verify  
+## MM-Verify  
 + Search Algorithm  
 `/search/eval.sh  `
 > We referred to the awesome work [ResT-MCTS](https://github.com/THUDM/ReST-MCTS) for the implementation of the search algorithm, thanks!
@@ -24,7 +24,7 @@ Test-time scaling enables a model to generate more tokens during the inference s
 + Data cleaning  
 `/data_syn/clean_ormData_mm_sample.py  `
 
-# MM-Reasoning  
+## MM-Reasoning  
 + Use QwQ for data distillation  
 `/data_syn/test4_mavis_vllm_slz.py  `
 
