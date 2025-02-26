@@ -18,7 +18,7 @@ Test-time scaling enables a model to generate more tokens during the inference s
 + Each question is sampled $n$ times  
 `/data_syn/sample_qwen2vl.py  `
 
-+ Perform ORM data annotation  
++ Perform verify data annotation  
 `/data_syn/orm_to_sft.py ` 
 
 + Data cleaning  
